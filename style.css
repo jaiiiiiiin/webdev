@@ -1,0 +1,351 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+.hero{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+.container{
+
+    background-position: center;
+    background-size: cover;
+    padding-left: 0%;
+    padding-right: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    height:7%;
+    display: flex;
+    align-items: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+li {
+  float: left;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: #00fa9a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: green;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #229954;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 60px;
+    color: green;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #00fa9a;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    font-size: 40px;
+}
+h2{
+    color: #27AE60;
+    font-size: 50px;
+    height: 2%;
+}
+p h4{
+    color: #27AE60;
+    font-size: 11px;
+    line-height: 10px;
+}
+button{
+    width: 180px0;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+    margin-top: 40px;
+}
+.card{
+    width: 200px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.8s;
+    box-shadow:5px black ;
+}
+.card1{
+    background-image: url(val.png);
+}
+.card2{
+    background-image: url(laguna.png);
+}
+.card3{
+    background-image: url(quezon.png);    
+}
+.card4{
+    background-image: url(antipolo.png);
+}
+.card5{
+    background-image: url(pampanga.png); 
+}
+.card6{
+    background-image: url(nueva.png);        
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h4{
+    color: #145A32;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.med{
+  padding: 20px;
+  font-size:30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 15px;
+}
+.med {
+display: inline-block;
+    font-size: 0px;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #c43030;
+}
+.hi-icon-mobile:before {
+    content: "\e001";
+}
+
+.hi-icon-screen:before {
+    content: "\e00a";
+}
+
+.hi-icon-earth:before {
+    content: "\e002";
+}
+
+.hi-icon-support:before {
+    content: "\e000";
+}
+
+.hi-icon-locked:before {
+    content: "\e001";
+}
+
+.hi-icon-cog:before {
+    content: "\e003";
+}
+
+.hi-icon-clock:before {
+    content: "\e004";
+}
+
+.hi-icon-videos:before {
+    content: "\e005";
+}
+
+.hi-icon-list:before {
+    content: "\e006";
+}
+
+.hi-icon-refresh:before {
+    content: "\e007";
+}
+
+.hi-icon-images:before {
+    content: "\e008";
+}
+
+.hi-icon-pencil:before {
+    content: "\e00b";
+}
+
+.hi-icon-link:before {
+    content: "\e00c";
+}
+
+.hi-icon-mail:before {
+    content: "\e00d";
+}
+
+.hi-icon-location:before {
+    content: "\e00e";
+}
+
+.hi-icon-archive:before {
+    content: "\e00f";
+}
+
+.hi-icon-chat:before {
+    content: "\e010";
+}
+
+.hi-icon-bookmark:before {
+    content: "\e011";
+}
+
+.hi-icon-user:before {
+    content: "\e012";
+}
+
+.hi-icon-contract:before {
+    content: "\e013";
+}
+
+.hi-icon-star:before {
+    content: "\e014";
+}
+button {
+    background: #efefef;
+    height: 15px;
+    width: 50px;
+    border-radius: 20px;
+    border:  0;
+    outline: 1;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 6px;
+    transition: 0.5s;
+}
+button span{
+    display: block;
+    background: #999;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: -8px;
+    margin-bottom: 6px;
+    margin-left: 3px;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.lamp-container{
+    position: absolute;
+    top: -80;
+    left: 70%;
+    width: 200px;
+}
+.lamp{
+    width: 100%;
+}
+.light{
+    position: absolute;
+    top:  100%;
+    left: 50%;
+    transform: translateX(-51%);
+    width: 620px;
+    height: 350px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.active {
+    background: #00fa9a;
+}
+.active span {
+    background: white;
+    margin-left: 31px;   
+}
+.on{
+    opacity: 1;
+}
+.text{
+ width: 120px;
+ height: 120px;
+ margin-bottom: -70%;
+}
+.logo1{
+    width: 250px;
+    height: 200px;
+    margin-left: -12%;
+    margin-top: 50%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.logo2{
+    opacity: 1;
+}
+.logo3{
+    position: absolute;
+    margin-top: -50%;
+    width: 900px;
+    height: 450px;
+    right:  375px;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+.logo4{
+    opacity: 1;
+}

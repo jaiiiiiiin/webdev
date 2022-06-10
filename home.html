@@ -1,0 +1,85 @@
+ <html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HOME</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+		 <div class="hero">
+
+
+
+	<div class="container">
+	<div class="navbar">
+			<nav>
+
+				<ul>
+					<li><a href="home.html"><i class="fa fa-fw fa-home"></i>HOME</a></li>
+                    <li><a href="about.html"><i class="fas fa-address-book"></i> ABOUT</a></li>
+                    <li class="dropdown">
+                      <a href="javascript.void" class="dropbtn"><i class="fas fa-desktop"></i> CCS</a>
+                      <div class="dropdown-content">
+                        <a href="ab.html">ABOUT</a>
+                        <a href="events.html">EVENTS</a>
+                    <li class="dropdown">
+                      <a href="javascript.void" class="dropbtn"><i class="fas fa-school"></i> CAMPUSES</a>
+                      <div class="dropdown-content">
+                        <a href="val.html">VALENZUELA</a>
+                        <a href="laguna.html">LAGUNA</a>
+                        <a href="quezon.html">QUEZON CITY</a>
+                        <a href="antipolo.html">ANTIPOLO</a>
+                        <a href="pampanga.html">PAMPANGA</a>
+                        <a href="nueva.html">NUEVA ECIJA</a>
+
+                    <li><button type="button" onclick="toggleBtn()" id="btn"><span></span></button></li>
+				              
+
+				</ul>
+			</nav>
+
+    <div class="lamp-container">
+    	<img src="images/lamp.png" class="lamp">
+    	 	<img src="images/light.png" class="light" id="light"> 
+    	 	<img src="C:\Users\je\OneDrive\Desktop/riseee.png" class="logo1" id="logo2">
+    	 	<img src="C:\Users\je\OneDrive\Desktop/uni.png" class="logo3" id="logo4">
+
+</div>
+           <div class="text-container">
+           	<img src="C:\Users\je\OneDrive\Desktop\ic_launcher.png" class="text" id="text">
+           	
+
+
+       </div>
+
+
+
+
+
+		</div>
+</div>
+
+
+
+<script>
+	
+var btn = document.getElementById("btn");
+var light = document.getElementById("light");
+var text = document.getElementById("text")
+var logo1 = document.getElementById("logo2")
+var logo3 = document.getElementById("logo4")
+function toggleBtn(){
+	btn.classList.toggle("active");
+  light.classList.toggle("on");
+  text.classList.toggle("okay");
+  logo1.classList.toggle("logo2");
+  logo3.classList.toggle("logo4")
+
+}
+</script>
+
+
+</div>
+</body>
+</html>

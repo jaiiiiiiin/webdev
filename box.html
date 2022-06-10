@@ -1,0 +1,385 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<body>
+<body style="background: url(gr.png);
+background-size: 100%;
+background-repeat: no-repeat;">
+
+
+<div class="sige">
+ <h1>CCS EVENTS</h1>
+</div>
+
+
+
+
+<div class="container">
+   
+
+
+    <div class="box">
+        <div class="imgBx">
+            <img src="m.jpeg">
+        </div>
+        <div class="content">
+           <div>
+              <h2>E-SPORT</h2>
+			  <h2><p>Join and register your team online for our OLFU CCS Valenzuela E-sports | MOBILE LEGENDS!</p>
+           </div></h2>
+        </div>
+    </div>
+
+
+
+
+    <div class="box">
+        <div class="imgBx">
+            <img src="f.jpeg">
+        </div>
+        <div class="content">
+           <div>
+              <h2>BAHAY KANLUNGAN</h2>
+              <p> OLFU CCS supports and  loves our Lolo at Lola from Bahay Kanlungan! </p>
+           </div>
+        </div>
+    </div>
+   
+
+
+    <div class="box">
+       <div class="imgBx">
+         <img src="b.jpeg">
+        </div>
+        <div class="content">
+           <div>
+              <h2>ONLINE CONCERT</h2>
+              <p> Let’s celebrate OLFU’s 55 years through a FLEXible virtual concert!</p>
+           </div>
+        </div>
+    </div>
+  
+
+
+    
+    </div>
+
+</div>
+
+<a href="ab.html" class="previous">&laquo; Previous</a>
+<a href="val.html" class="next">Next &raquo;</a>
+
+<br><br><br><br>
+
+<style>
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 15px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #dc143c;
+  color: black;
+}
+
+.next {
+  background-color: #dc143c;
+  color: black;
+}
+
+.round {
+  border-radius: -80%;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+body{
+    
+   justify-content: center;
+   align-items:center;
+   min-height: 100vh;
+   background: rgb(0,0,0);
+
+   
+    
+
+
+
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 300px;
+     transition: 1s;
+
+
+
+}
+
+.container .box {
+position: relative;
+width: 300px;
+height: 450px;
+overflow: hidden;
+transition: 0.5s;
+    margin: 8px 8px;
+   
+
+
+}
+
+.container .box:hover {
+   z-index: 1;
+
+}
+
+.container .box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+
+     
+
+}
+
+.container .box .imgBx:before{
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg,#fff, #000);
+    backdrop-filter: blur(2px);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+
+
+
+
+
+}
+
+.container .box:hover .imgBx:before{
+   opacity: 1;
+
+
+
+
+}
+
+.container .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+
+}
+
+.container .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+   
+   margin-left: 5px;
+
+}
+
+.container .box .content h2{
+    color: fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    font-size: 20px;
+    transform: translateY(200px);
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+
+.container .box:hover .content h2{
+    transform: translateY(0);
+    transition-delay: 0.2s;
+}
+
+.container .box .content p{
+    color: fff;
+    transition: 0.5s;
+    margin-bottom: 5px;
+    font-size: 14px;
+    transform: translateY(200px);
+    font-family: cursive;
+}
+
+.container .box:hover .content p{
+    transform: translateY(0);
+    transition-delay: 0.3s;
+}
+
+
+
+.container{
+
+    animation: trainstionIn 0.75s;
+}
+
+@keyframes trainstionIn{
+}
+from {
+   opacity: 0;
+   transform: rotateX(-10deg);
+}
+
+to {
+  opacity: 1;
+  transform: rotateX(0);
+
+ }
+
+ .sige{
+  font-family: cursive;
+  color: #000000;
+  letter-spacing: 5px;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-left: 80px;
+}
+
+
+@keyframes egis{
+
+0% {
+   opacity: 0;
+   transform: rotateX(-10deg);
+}
+
+30% {
+   opacity: 0;
+   transform: rotateX(-10deg);
+}
+
+80% {
+   opacity: 0;
+   transform: rotateX(-10deg);
+}
+
+
+100% {
+  opacity: 1;
+  transform: rotateX(0);
+
+}
+
+}
+
+
+   </style>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      
+      duration: 700
+    });
+  </script>
+
+
+  
+
+</body>
+</html>
